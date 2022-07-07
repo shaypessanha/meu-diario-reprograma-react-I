@@ -1,0 +1,62 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body {
+  margin: 0;
+}
+
+.page-content {
+  margin: 0px 48px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 24px;
+  margin: 50px 100px;
+}
+
+.box-header {
+  display: grid;
+  text-align: center;
+  background-color: #8877CA;
+  height: 280px;
+  color: white;
+  margin-bottom: 48px;
+  align-content: center;
+}
+.box-footer {
+  display: grid;
+  text-align: center;
+  background-color: #8877CA;
+  height: 100px;
+  color: white;
+  margin-top: 48px;
+  align-content: center;
+}
+
+.diario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.profile-pic {
+  object-fit: cover;
+  object-position: 50% 15%;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.intro-text {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.footer-link {
+  color: #d5c31a;
+}

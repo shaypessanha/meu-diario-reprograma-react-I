@@ -1,0 +1,12 @@
+.img {
+  width: 450px;
+  border-radius: 8px;
+}
+
+.card-title {
+  color: #8877CA;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
