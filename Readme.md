@@ -2,6 +2,7 @@
 |Autora|Shayanne Pessanha|
 |---|---|
 <br>
+
 # Tecnologias utilizadas
 ## React
 ___
