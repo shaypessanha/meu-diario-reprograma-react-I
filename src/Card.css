@@ -1,5 +1,6 @@
 .img {
-  width: 450px;
+  /* max-width: 20em; */
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -7,6 +8,10 @@
   color: #8877CA;
 }
 
-* {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.card-item {
+  display: grid;
+  justify-items: center;
+  align-items: flex-start;
+  width: 100%;
+  /* aspect-ratio: 1 / 1; */
 }

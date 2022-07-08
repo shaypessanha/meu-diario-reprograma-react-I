@@ -5,7 +5,7 @@ import './Card.css'
 
 function Card(props) {
     return (
-        <section>
+        <section class="card-item">
             <Title class="card-title" Title={props.Title}></Title>
             <Image class="img" src={props.Image}></Image>
             <Text Text={props.Text}></Text>

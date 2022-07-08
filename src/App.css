@@ -3,19 +3,38 @@
 }
 html, body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .page-content {
-  margin: auto;
-  width: 90%;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  padding: 0 0.5em;
+  background-color: #eee;
+}
+
+.content-container {
+  max-width: 60em;
+  min-width: 100%;
+  padding-left: 5em;
+  padding-right: 5em;
+  /* padding: 0 10em; */
+  padding-top: 4em;
+  background-color: white;
 }
 
 .intro {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  gap: 24px;
-  margin: 50px 100px;
+  gap: 2em;
+}
+
+.intro-text {
+  font-size: 18px;
+  text-align: justify;
 }
 
 .box-header {
@@ -24,7 +43,6 @@ html, body {
   background-color: #8877CA;
   height: 280px;
   color: white;
-  margin-bottom: 48px;
   align-content: center;
 }
 .box-footer {
@@ -39,30 +57,28 @@ html, body {
 
 .diario {
   display: grid;
-  grid-template-columns: auto auto;
+  /* grid-template-columns: auto auto; */
+  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(20em, 1fr)); */
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   align-content: center;
-  gap: 48px;
+  justify-items: center;
+  justify-content: center;
+  gap: max(0.5em, 2em);
 }
 
-.diario > section:last-child {
+/* .diario > section:last-child {
   grid-column: span 2;
   justify-self: center;
-}
+} */
 
 .profile-pic {
   object-fit: cover;
   object-position: 50% 15%;
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
-}
-
-.intro-text {
-  font-size: 18px;
-  text-align: justify;
+  max-height: 150px;
+  width: unset;
+  aspect-ratio: 1 / 1;
 }
 
 .footer-link {
